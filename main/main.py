@@ -1,4 +1,4 @@
-from numCheckFunc import *
+from vectCheckFunc import *
 from catchCropImg import *
 from tessCheckFunc import *
 

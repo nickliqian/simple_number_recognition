@@ -185,6 +185,6 @@ def check_sample(sample_name, train_dir):
 
 
 if __name__ == '__main__':
-	trained_img_dir = 'new'
-	sample_name = 'part-5.png'
+	trained_img_dir = 'trainedImage/'
+	sample_name = 'markImage/110x170x150x215p8080.png'
 	text = check_sample(sample_name, trained_img_dir)
