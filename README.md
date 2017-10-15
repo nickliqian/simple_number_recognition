@@ -32,13 +32,13 @@ text = pytesseract.image_to_string(im, lang='num')
 5. 计算未知图片向量与训练集中每个图片向量的cos夹角，cos值越大说明图片重合度越高。
 
 ## 使用此项目
-######1. catchCropImg 
+###### 1. catchCropImg 
 是从某个网站采集web页面，并且分割为标准大小的例子
-######2. get_useragent
+###### 2. get_useragent
 每次访问使用随机浏览器代理
-######3. tessCheckFunc
+###### 3. tessCheckFunc
 调用tesseract识别图片 `ip_list = ocr_ip_http(filename_list)`
-######4. vectCheckFunc
+###### 4. vectCheckFunc
 生成训练集，设置训练集的目标图片开始识别图片
 ```
 1. 生成图片训练集
@@ -52,7 +52,8 @@ sample_name = 目标图片文件名称
 text = check_sample(sample_name, trained_img_dir)
 ```
 
-######5. main —— 使用以上函数的例子
+###### 5. main
+包含使用以上函数的例子
 
 
 ## 注意
