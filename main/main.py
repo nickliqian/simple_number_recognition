@@ -12,7 +12,7 @@ def mainTessCheck():
 
 	# 识别每个区域的数字
 	ip_list = ocr_ip_http(filename_list)
-	print(all_ip)
+	print(ip_list)
 
 
 def mainVectCheck():
@@ -39,4 +39,4 @@ def get_trained_dir():
 
 
 if __name__ == '__main__':
-	mainVectCheck()
+	mainTessCheck()
